@@ -1,0 +1,60 @@
+.Modpack {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    min-height: 70px;
+    color: white;
+    /* margin: 20px; */
+    margin-top: 20px;
+}
+
+.name {
+    padding: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: rgb(229, 229, 229);
+    padding-left: 10px;
+}
+
+.version {
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+    padding-left: 10px;
+}
+
+.modes {
+    font-size: 15px;
+    color: rgb(255, 140, 0);
+    padding-left: 10px;
+    text-decoration: orangered underline;
+    cursor: pointer;
+}
+
+.withoutMods {
+    font-size: 15px;
+    color: rgb(255, 140, 0);
+    padding-left: 10px;
+    text-decoration: orangered underline;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.enterButton {
+    float: right;
+    font-size: 15px;
+    width: 70px;
+    height: 20px;
+    border-bottom: solid orangered 4px;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.enterButton:hover {
+    background-color: orangered;
+}
